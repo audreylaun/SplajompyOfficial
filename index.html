@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Splajompy Official</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    /* Bigger header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #222;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 20px 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    header img {
+      height: 80px; /* larger logo */
+      margin-right: 25px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px; /* bigger title */
+    }
+    main {
+      margin-top: 140px; /* more space for big header */
+      padding: 20px;
+      text-align: center;
+    }
+    textarea {
+      width: 80%;
+      height: 100px;
+      resize: none;
+      background: #f0f0f0;
+      color: #666;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 16px;
+    }
+    textarea:disabled {
+      cursor: not-allowed;
+    }
+    button {
+      margin-top: 15px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #666;
+    }
+    /* Feed styling */
+    .feed {
+      margin-top: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    .post, .ad {
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .post {
+      background: white;
+      border: 1px solid #ddd;
+    }
+    .post h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #333;
+    }
+    .post p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #555;
+    }
+    /* Advertisement styling */
+    .ad {
+      background: #fffbe6;
+      border: 2px dashed #e6b800;
+      text-align: center;
+    }
+    .ad h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #b36b00;
+    }
+    .ad p {
+      margin: 0;
+      font-size: 16px;
+      color: #804d00;
+    }
+    .ad button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: #e6b800;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .ad button:hover {
+      background: #cc9900;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Splajompy Official</h1>
+  </header>
+
+  <main>
+    <h2>Make a Post</h2>
+    <textarea disabled>You need to make an account to make a post.</textarea>
+    <br>
+    <a href="account.html"><button>Make an Account</button></a>
+
+    <!-- Post Feed -->
+    <div class="feed">
+      <div class="post">
+        <h3>@SplajompyOfficial</h3>
+        <p>Welcome to Splajompy Official! This is the very first post on the official site. Stay tuned for more updates.</p>
+      </div>
+
+      <div class="ad">
+        <h3>Advertisement</h3>
+        <p>✨ Buy Splajompy Premium for only $999 TODAY ONLY! ✨</p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="post">
+        <h3>@prumpi123Official</h3>
+        <p>Hi guys, what's up?</p>
+          <img src="tongue.png" alt="Prumpi Selfie" style="max-width:100%; border-radius:6px; margin-top:10px;">
+
+      </div>
+
+      <div class="post">
+        <h3>@freakoftheweekOfficial</h3>
+        <p>This official site is so much freakier than the unofficial version...</p>
+      </div>
+
+      <div class="ad">
+        <h3>Sponsored</h3>
+        <p>Download the latest release of Prumpi World!🦖https://github.com/audreylaun/prumpi/releases/tag/1.1.5 </p>
+        <button>Shop Now</button>
+      </div>
+
+      <div class="post">
+        <h3>@JompingtonPostOfficial</h3>
+        <p>Latest news update📰ten dogs saved from the river🌊.</p>
+      </div>
+      <div class="post">
+        <h3>@wesleyOfficial</h3>
+        <p>I made this new website because there was no Official version of Splajompy. Let me know if there are any bugs/glitches!</p>
+      </div>
+
+      <div class="ad">
+        <h3>Ad Break</h3>
+        <p>📺 Splajompy Official merch now available in the official store!</p>
+        <button>Visit Store</button>
+      </div>
+
+      <div class="post">
+        <h3>@SplajompyOfficial</h3>
+        <p>In the new Official version of Splajompy, you can post videos! Try out the new feature!</p>
+        <video width="560" controls>
+          <source src="pigeon.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="post">
+        <h3>@giuseppeOfficial</h3>
+        <p>I just farded 😆</p>
+      </div>
+      <div class="post">
+        <h3>@CharlieDamelioOfficial</h3>
+        <p>Check out my new dance video! ;)</p>
+          <img src="charli.jpg" alt="Prumpi Selfie" style="max-width:50%; border-radius:6px; margin-top:10px;">
+
+      </div>
+      <div class="post">
+        <h3>@bennettcastilloOfficial</h3>
+        <p>I'm loving the Splajompy Official website way more than the app honestly</p>
+      </div>
+
+      <div class="ad">
+        <h3>Ad Break</h3>
+        <p>📺 Splajompy Official merch now available in the official store!</p>
+        <button>Visit Store</button>
+      </div>
+      <div class="post">
+        <h3>@wesleyOfficial</h3>
+        <p>Please buy Splajompy Official memberships to fund my trip to europe with @bennettcastilloOfficial</p>
+      </div>
+      <div class="post">
+        <h3>@carmhandOfficial</h3>
+        <p>Water is just clear soup</p>
+      </div>
+      <div class="post">
+          <h3>@freakoftheweekOfficial</h3>
+          <p>I just love this freaky little bird </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/IcImivnimdo?si=OTxoMN-JM7tO4CpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
